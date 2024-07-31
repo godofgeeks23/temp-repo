@@ -1,0 +1,75 @@
+{
+    "name": "loginsignup",
+    "version": "1.0.0",
+    "description": "the rest API for login and sign-up",
+    "main": "index.js",
+    "scripts": {
+      "start": "nodemon index.js",
+      "build": "webpack",
+      "test": "jest --testTimeout=15000"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "aws-sdk": "^2.1304.0",
+      "axios": "^1.6.7",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "^1.19.2",
+      "chart.js": "^3.9.1",
+      "chartjs-node-canvas": "^4.1.6",
+      "child_process": "^1.0.2",
+      "cookie-parser": "^1.4.5",
+      "cors": "^2.8.5",
+      "crypto": "^1.0.1",
+      "cvss-calculator": "^1.0.0",
+      "dotenv": "^16.0.3",
+      "express": "^4.19.2",
+      "express-fileupload": "^1.4.0",
+      "express-rate-limit": "^6.9.0",
+      "fs": "^0.0.1-security",
+      "hi-base32": "^0.5.1",
+      "inline-css": "^4.0.2",
+      "jsonwebtoken": "^9.0.0",
+      "lodash": "^4.17.21",
+      "markdown-it": "^14.0.0",
+      "moment": "^2.29.4",
+      "mongoose": "^6.11.3",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.3",
+      "nocache": "^4.0.0",
+      "node-2fa": "^2.0.3",
+      "node-fetch": "^2.6.7",
+      "nodemon": "^2.0.17",
+      "otpauth": "^9.2.3",
+      "passport": "^0.6.0",
+      "passport-jwt": "^4.0.1",
+      "password-validator": "^5.3.0",
+      "path": "^0.12.7",
+      "pdf-lib": "^1.17.1",
+      "pdf-parse": "^1.1.1",
+      "puppeteer": "21.6.1",
+      "qrcode": "^1.5.3",
+      "request": "^2.88.2",
+      "string-similarity": "^4.0.4",
+      "useragent": "^2.3.0",
+      "uuid": "^9.0.0",
+      "validator": "^13.7.0",
+      "yamlparser": "^0.0.2"
+    },
+    "devDependencies": {
+      "@eslint/js": "^9.3.0",
+      "eslint": "^9.3.0",
+      "globals": "^15.3.0",
+      "jest": "^29.7.0",
+      "supertest": "^6.3.4",
+      "webpack": "^5.91.0",
+      "webpack-cli": "^5.1.4"
+    },
+    "jest": {
+      "testEnvironment": "node",
+      "coveragePathIgnorePatterns": [
+        "/node_modules/"
+      ]
+    }
+  }
+  
